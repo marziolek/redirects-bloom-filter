@@ -5,8 +5,8 @@ dependencies:
     specifier: ^2.0.3
     version: 2.0.3(next@14.1.0)(react-dom@18.2.0)(react@18.2.0)
   bloom-filters:
-    specifier: ^3.0.1
-    version: 3.0.1
+    specifier: ^3.0.4
+    version: 3.0.4
   next:
     specifier: 14.1.0
     version: 14.1.0(react-dom@18.2.0)(react@18.2.0)
