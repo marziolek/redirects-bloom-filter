@@ -4,8 +4,8 @@ import GeneratedBloomFilter from '@/redirects/redirects-bloom-filter.json'
 import type { RedirectEntry } from '@/redirects/types'
 
 // Initialize bloom filter from a generated JSON file
-
 const bloomFilter = ScalableBloomFilter.fromJSON(GeneratedBloomFilter as any)
+
 export async function middleware(request: NextRequest) {
   // Get the path for the incoming request
   const pathname = request.nextUrl.pathname
